@@ -12,7 +12,7 @@ class SP_TEST():
         self.path_usa=r"RESULTS\RESULTS_usa.csv"
         self.path_rf=r"RESULTS\RESULTS_2nd.csv"
         actual_time=tm.time()+10000
-        threshold_time=200
+        threshold_time=120
         while True:
             if abs(tm.time()-actual_time)>=threshold_time:
                 self.counter=self.counter+1
